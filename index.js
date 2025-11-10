@@ -10,6 +10,5 @@ app.get("/date", (req, res) => {
     res.send(`<p>Today the date is: <strong>${new Date().toDateString()}</strong></p>`);
   });
   
-
 // Start server
 app.listen(port, () => console.log(`Node server is running on port ${port}...`));
